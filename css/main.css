@@ -1,3 +1,44 @@
+/*Base*/
 .font {
     font-family: 'Alfa Slab One', cursive;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: none;
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+.navbar-dark .navbar-nav .nav-link {
+    padding: 5px 10px;
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    color: #333;
+}
+
+/*Carousel*/
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.i1 {
+    height: 500px;
+    background-color: #91ACD9;
+    padding: 55px 0;
+}
+.i2 {
+    height: 500px;
+    background-color: #624E42;
+    padding: 55px 0;
+}
+.i3 {
+    height: 500px;
+    background-color: #FFB400;
+    padding: 55px 0;
 }
