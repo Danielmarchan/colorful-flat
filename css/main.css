@@ -1,7 +1,30 @@
-/*Fonts*/
+/*Global Styles*/
 .title {
     font-family: 'Alfa Slab One', cursive;
     color: white;
+}
+.card-text {
+    color: #9B9B9B;
+}
+button {
+    padding: 10px 25px!important;
+    margin-top: 30px!important;
+}
+.btn-success {
+    background-color: #78bf86;
+    border-color: #78bf86;
+}
+.btn-success:hover {
+    background-color: #59a568;
+    border-color: #59a568;
+}
+.btn-info {
+    background-color: #799ad1;
+    border-color: #799ad1;
+}
+.btn-info:hover {
+    background-color: #607fb2;
+    border-color: #607fb2;
 }
 
 /*Navbar*/
@@ -15,7 +38,7 @@
     padding: 5px 10px!important;
     color: white!important;
 }
-.nav-link:hover {
+.nav-link:hover, .nav-item .active {
     display: inline-block;
     background-color: white;
     border-radius: 10px;
@@ -52,12 +75,9 @@
     max-width: 1300px;
     margin: 0 auto;
 }
-#services h1, templates h1 {
+#services h1 {
     font-size: 16px;
     margin: 20px;
-}
-#services p {
-    color: #9B9B9B;
 }
 #services img {
     height: 150px;
@@ -87,10 +107,6 @@
     object-fit: cover;
     margin: 20px 0;
 }
-button {
-    padding: 10px 25px!important;
-    margin-top: 30px!important;
-}
 
 /*Templates*/
 #templates {
@@ -101,23 +117,56 @@ button {
 #templates .row > div {
     margin: 50px 0;
 }
-.btn-success {
-    background-color: #78bf86;
-    border-color: #78bf86;
-}
-.btn-success:hover {
-    background-color: #59a568;
-    border-color: #59a568;
-}
-.btn-info {
-    background-color: #799ad1;
-    border-color: #799ad1;
-}
-.btn-info:hover {
-    background-color: #607fb2;
-    border-color: #607fb2;
-}
 hr {
   border: 1px solid #e0dede;
   width: 100%;
 }
+#templates h1 {
+    font-size: 20px;
+}
+
+/*Team*/
+#team {
+    background-color: #e2b7c8;
+    color: white;
+}
+#team .row {
+    color: black;
+}
+#team .card {
+    height: 470px;
+}
+#team .card-text {
+    display: inline-block;
+    height: 145px;
+}
+.fb, .tw, .pi {
+    padding: 0;
+}
+.fa-facebook-f, .fa-twitter, .fa-pinterest-p {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 7px;
+    margin: 0;
+}
+.fa-facebook-f {
+    background-color: #4267B2;
+}
+.fa-twitter {
+    background-color: #1DA1F2;
+}
+.fa-pinterest-p {
+    background-color: #BD081C;
+}
+
+/*Blog*/
+#blog {
+    background-color: #B3D3DE;
+    color: white;
+}
+
+/*Contact*/
