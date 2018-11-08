@@ -214,7 +214,7 @@ footer hr {
   max-width: 750px;
   margin: 0;
 }
-.fa-facebook-f, .fa-twitter, .fa-pinterest-p {
+footer .fa-facebook-f, footer .fa-twitter, footer .fa-pinterest-p {
     color: #3C3C3C;
     background-color: #4C4C4C;
 }
