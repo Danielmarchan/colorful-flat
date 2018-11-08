@@ -1,6 +1,7 @@
-/*Base*/
-.font {
+/*Fonts*/
+.title {
     font-family: 'Alfa Slab One', cursive;
+    color: white;
 }
 
 /*Navbar*/
@@ -10,15 +11,19 @@
     z-index: 1;
     display: block;
 }
-.navbar-dark .navbar-nav .nav-link {
-    padding: 5px 10px;
-    color: white;
+.nav-link {
+    padding: 5px 10px!important;
+    color: white!important;
 }
-.navbar-dark .navbar-nav .nav-link:hover {
+.nav-link:hover {
     display: inline-block;
     background-color: white;
     border-radius: 10px;
-    color: #333;
+    color: #333!important;
+}
+#heart {
+    font-size: 1.75rem;
+    color: white;
 }
 
 /*Carousel*/
@@ -27,18 +32,92 @@
   height: 10px;
   border-radius: 100%;
 }
+.i1, .i2, .i3 {
+   height: 500px;
+   padding-top: 20px;
+   object-fit: contain;
+}
 .i1 {
-    height: 500px;
     background-color: #91ACD9;
-    padding: 55px 0;
 }
 .i2 {
-    height: 500px;
     background-color: #624E42;
-    padding: 55px 0;
 }
 .i3 {
-    height: 500px;
     background-color: #FFB400;
-    padding: 55px 0;
+}
+
+/*Services*/
+#services {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+#services h1, templates h1 {
+    font-size: 16px;
+    margin: 20px;
+}
+#services p {
+    color: #9B9B9B;
+}
+#services img {
+    height: 150px;
+    object-fit: contain;
+}
+.i6 {
+    background-color: #2ECC71;
+}
+.i4 {
+    background-color: #94A4A5;
+}
+
+/*Portfolio*/
+#portfolio {
+    background-color: #97D0A3;
+    color: white;
+}
+#portfolio .nav {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+#portfolio .nav-item {
+    margin: 0 20px;
+}
+#portfolio img {
+    height: 200px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+button {
+    padding: 10px 25px!important;
+    margin-top: 30px!important;
+}
+
+/*Templates*/
+#templates {
+    background-color: #F0F0F0;
+    color: #333;
+    padding: 20px 0;
+}
+#templates .row > div {
+    margin: 50px 0;
+}
+.btn-success {
+    background-color: #78bf86;
+    border-color: #78bf86;
+}
+.btn-success:hover {
+    background-color: #59a568;
+    border-color: #59a568;
+}
+.btn-info {
+    background-color: #799ad1;
+    border-color: #799ad1;
+}
+.btn-info:hover {
+    background-color: #607fb2;
+    border-color: #607fb2;
+}
+hr {
+  border: 1px solid #e0dede;
+  width: 100%;
 }
