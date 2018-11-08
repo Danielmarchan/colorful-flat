@@ -21,25 +21,47 @@ button {
     margin-top: 30px!important;
 }
 .btn-success {
-    background-color: #78bf86;
-    border-color: #78bf86;
+    background-color: #78BF86;
+    border-color: #78BF86;
 }
 .btn-success:hover {
-    background-color: #59a568;
-    border-color: #59a568;
+    background-color: #59A568;
+    border-color: #59A568;
 }
 .btn-info {
-    background-color: #799ad1;
-    border-color: #799ad1;
+    background-color: #799AD1;
+    border-color: #799AD1;
 }
 .btn-info:hover {
-    background-color: #607fb2;
-    border-color: #607fb2;
+    background-color: #607FB2;
+    border-color: #607FB2;
+}
+.fb, .tw, .pi {
+    padding: 0;
+}
+.fa-facebook-f, .fa-twitter, .fa-pinterest-p {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 7px;
+    margin: 0;
+}
+.fa-facebook-f {
+    background-color: #4267B2;
+}
+.fa-twitter {
+    background-color: #1DA1F2;
+}
+.fa-pinterest-p {
+    background-color: #BD081C;
 }
 
 /*Navbar*/
 .navbar {
-    background-color: none;
+    background-color: transparent;
     position: absolute;
     z-index: 1;
     display: block;
@@ -130,8 +152,9 @@ button {
 #templates .row > div {
     margin: 50px 0;
 }
-hr {
-  border: 1px solid #e0dede;
+#templates hr {
+  border: 0.5px solid #E0DEDE;
+  background-color: #E0DEDE;
   width: 100%;
 }
 #templates h1 {
@@ -140,41 +163,18 @@ hr {
 
 /*Team*/
 #team {
-    background-color: #e2b7c8;
+    background-color: #E2B7C8;
     color: white;
 }
 #team .row {
     color: black;
 }
 #team .card {
-    height: 470px;
     margin-top: 30px;
 }
 #team .card-text {
     display: inline-block;
-    height: 145px;
-}
-.fb, .tw, .pi {
-    padding: 0;
-}
-.fa-facebook-f, .fa-twitter, .fa-pinterest-p {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    color: white;
-    font-size: 20px;
-    border-radius: 100px;
-    padding: 7px;
-    margin: 0;
-}
-.fa-facebook-f {
-    background-color: #4267B2;
-}
-.fa-twitter {
-    background-color: #1DA1F2;
-}
-.fa-pinterest-p {
-    background-color: #BD081C;
+    height: 120px;
 }
 
 /*Blog*/
@@ -194,3 +194,27 @@ hr {
 }
 
 /*Contact*/
+#contact {
+    background-color: #3C3C3C;
+    color: white;
+}
+#contact form {
+    max-width: 750px;
+}
+
+/*Footer*/
+footer {
+    background-color: #3C3C3C;
+    color: white;
+}
+footer hr {
+  border: 0.5px solid #333;
+  background-color: #333;
+  width: 100%;
+  max-width: 750px;
+  margin: 0;
+}
+.fa-facebook-f, .fa-twitter, .fa-pinterest-p {
+    color: #3C3C3C;
+    background-color: #4C4C4C;
+}
