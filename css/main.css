@@ -6,6 +6,16 @@
 .card-text {
     color: #9B9B9B;
 }
+.nav-link {
+    padding: 5px 10px!important;
+    color: white!important;
+}
+.nav-link:hover, .nav-item .active {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    color: #333!important;
+}
 button {
     padding: 10px 25px!important;
     margin-top: 30px!important;
@@ -34,22 +44,25 @@ button {
     z-index: 1;
     display: block;
 }
-.nav-link {
-    padding: 5px 10px!important;
-    color: white!important;
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #0E0E0E!important;
 }
-.nav-link:hover, .nav-item .active {
-    display: inline-block;
-    background-color: white;
-    border-radius: 10px;
-    color: #333!important;
+.navbar .nav-link {
+    font-weight: bold;
 }
 #heart {
     font-size: 1.75rem;
-    color: white;
+    color: #0E0E0E;
+}
+.navbar .nav-link:hover {
+    display: inline-block;
+    background-color: #0E0E0E;
+    border-radius: 10px;
+    color: white!important;
 }
 
 /*Carousel*/
+
 .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -57,7 +70,7 @@ button {
 }
 .i1, .i2, .i3 {
    height: 500px;
-   padding-top: 20px;
+   padding: 30px 0 75px 0;
    object-fit: contain;
 }
 .i1 {
@@ -67,7 +80,7 @@ button {
     background-color: #624E42;
 }
 .i3 {
-    background-color: #FFB400;
+    background-color: #8BE1F0;
 }
 
 /*Services*/
@@ -135,6 +148,7 @@ hr {
 }
 #team .card {
     height: 470px;
+    margin-top: 30px;
 }
 #team .card-text {
     display: inline-block;
@@ -167,6 +181,16 @@ hr {
 #blog {
     background-color: #B3D3DE;
     color: white;
+}
+#blog .row {
+    color: black;
+}
+#blog .card {
+    margin-top: 30px;
+}
+#blog img {
+    height: 200px;
+    object-fit: cover;
 }
 
 /*Contact*/
