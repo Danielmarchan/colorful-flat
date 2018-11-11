@@ -276,3 +276,12 @@ footer .fa-facebook-f, footer .fa-twitter, footer .fa-pinterest-p {
         padding-bottom: 10px;
     }
 }
+@media (max-width: 450px) {
+    #portfolio .nav-link {
+         font-size: 0.9rem;
+         padding: 0px;
+    }
+    #portfolio .nav-item {
+        width: 50%;
+    }
+}
